@@ -1,10 +1,10 @@
 <header id="header">
 	<div id = site_title>
 		<a href="{{ "/" | absolute_url }}">
-			<h1>{{site.title}}</h1>
+			<h1 id = "title">{{site.title}}</h1>
 		</a>
 		{% if site.data.settings.subtitle.active %}
-		<h2>
+		<h2 id = "subtitle" >
 			{{ site.data.settings.subtitle.text }}
 		</h2>
 		{% endif %}
@@ -23,3 +23,13 @@
 		{% endif %}
 	</div>
 </header>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+#title, #subtitle {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+}
+  
+</style>
