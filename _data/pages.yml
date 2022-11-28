@@ -1,4 +1,4 @@
 pages:
   - {name: 'About', url: 'about.html'}
   - {name: 'Archive', url: 'archive.html'}
-  - {name: 'Github', url: 'https://github.com/dobinim'}
+  - {name: 'Projects', url: 'https://github.com/dobinim/project'}
